@@ -1,0 +1,20 @@
+
+Move up the :2,0(1)
+Move left the :2,1(4)
+Move left the :2,2(7)
+Move down the :1,2(8)
+Move Right the :1,1(3)
+Move down the :0,1(5)
+Move Right the :0,0(6)
+Move up the :1,0(1)
+Move left the :1,1(5)
+Move down the :0,1(6)
+Move left the :0,2(2)
+Move up the :1,2(3)
+Move Right the :1,1(6)
+Move Right the :1,0(5)
+Move up the :2,0(4)
+Move left the :2,1(7)
+Move left the :2,2(8)
+
+Total Moves: 17

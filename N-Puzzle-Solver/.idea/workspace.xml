@@ -1,0 +1,1939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d438726-a0bd-4b5d-b825-7e23b9afd508" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Npuzzle/Solver/Board.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Npuzzle/Solver/Driver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Npuzzle/Solver/PQ.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Npuzzle/Solver/PuzzleAlgorithms.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Npuzzle/Solver/Solver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Npuzzle/Solver/StoreValues.java" />
+      <change type="DELETED" beforePath="C:\Users\Elias\Desktop\Elias_Spanos_983218_Ex1_Epl341\Elias_spanos_983218_n-puzzle\mygraph.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Elias\Desktop\Elias_Spanos_983218_Ex1_Epl341\Elias_spanos_983218_n-puzzle\src\GraphAlgorithms\Graphs\BfsSearch.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Elias\Desktop\Elias_Spanos_983218_Ex1_Epl341\Elias_spanos_983218_n-puzzle\src\GraphAlgorithms\Graphs\Board.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Elias\Desktop\Elias_Spanos_983218_Ex1_Epl341\Elias_spanos_983218_n-puzzle\src\GraphAlgorithms\Graphs\Graph.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Elias\Desktop\Elias_Spanos_983218_Ex1_Epl341\Elias_spanos_983218_n-puzzle\src\GraphAlgorithms\Graphs\dfsSearch.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Elias\Desktop\Elias_Spanos_983218_Ex1_Epl341\Elias_spanos_983218_n-puzzle\src\GraphAlgorithms\Graphs\dijkstra.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Elias\Desktop\Elias_Spanos_983218_Ex1_Epl341\Elias_spanos_983218_n-puzzle\src\GraphAlgorithms\Graphs\driver.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Elias\Desktop\Elias_Spanos_983218_Ex1_Epl341\Elias_spanos_983218_n-puzzle\src\GraphAlgorithms\Graphs\puzzleSolver.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Elias\Desktop\Elias_Spanos_983218_Ex1_Epl341\Elias_spanos_983218_n-puzzle\src\GraphAlgorithms\Graphs\readTxt.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Elias\Desktop\Elias_Spanos_983218_Ex1_Epl341\Elias_spanos_983218_n-puzzle\src\GraphAlgorithms\Graphs\runGraph.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Elias\Desktop\Elias_Spanos_983218_Ex1_Epl341\Elias_spanos_983218_n-puzzle\graphdata.txt" afterPath="$PROJECT_DIR$/puzzle.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="programming.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="programming" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="SearchNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/SearchNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="969">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding>
+                <element signature="e#67#132#0" expanded="false" />
+                <element signature="method#SearchNode#1;class#SearchNode#0" expanded="false" />
+                <element signature="method#equalBoard#0;class#SearchNode#0" expanded="false" />
+                <element signature="method#compareTo#0;class#SearchNode#0" expanded="false" />
+                <element signature="e#1735#1790#0" expanded="false" />
+                <element signature="method#equals#0;class#SearchNode#0" expanded="false" />
+                <element signature="method#toString#0;class#SearchNode#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="235" max-vertical-offset="1105">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <folding>
+                <element signature="method#Board#0;class#Board#0" expanded="false" />
+                <element signature="method#manhattan#0;class#Board#0" expanded="false" />
+                <element signature="method#Euclidean#0;class#Board#0" expanded="false" />
+                <element signature="method#linearConflict#0;class#Board#0" expanded="false" />
+                <element signature="method#hamming#0;class#Board#0" expanded="false" />
+                <element signature="method#isSolvable#0;class#Board#0" expanded="false" />
+                <element signature="method#isGoal#0;class#Board#0" expanded="false" />
+                <element signature="method#neighbors#0;class#Board#0" expanded="false" />
+                <element signature="method#swap#0;class#Board#0" expanded="false" />
+                <element signature="method#toString#0;class#Board#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PuzzleAlgorithms.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/PuzzleAlgorithms.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="1207">
+              <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#ideStar#0;class#PuzzleAlgorithms#0" expanded="false" />
+                <element signature="method#ideSearch#0;class#PuzzleAlgorithms#0" expanded="false" />
+                <element signature="method#AStarAlgorithm#0;class#PuzzleAlgorithms#0" expanded="false" />
+                <element signature="method#reconstructMoves#0;class#PuzzleAlgorithms#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Solver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="476">
+              <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#readPuzzle#0;class#Solver#0" expanded="false" />
+                <element signature="docComment;method#generateRand8Puzzle#0;class#Solver#0" expanded="false" />
+                <element signature="method#generateRand8Puzzle#0;class#Solver#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5074627" vertical-offset="612" max-vertical-offset="1955">
+              <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="117" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#runAStarlgorithm#0;class#Driver#0" expanded="false" />
+                <element signature="method#runIdAStarAlgorithm#0;class#Driver#0" expanded="false" />
+                <element signature="method#main#0;class#Driver#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moves.txtsolution.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/moves.txtsolution.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="puzzle.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/puzzle.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="randomPuzzles.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/randomPuzzles.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Elias Spanos" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Challenges/ArraysAndSorting/Graphs/DFS_NonRecursive.java" />
+        <option value="$PROJECT_DIR$/src/Sorting/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/Sorting/InsertionSort" />
+        <option value="$PROJECT_DIR$/src/Sorting/Insertionsort.java" />
+        <option value="$PROJECT_DIR$/src/Sorting/InserSort.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/FindIndexOfPeak.java" />
+        <option value="$PROJECT_DIR$/src/Sorting/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/Challenges/ArraysAndSorting/Graphs/Graph.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Find1DIndexOfPeak.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Graphs/BFS.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Graphs/graphdata.txt" />
+        <option value="$PROJECT_DIR$/grapddata.txt" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Graphs/Graph.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/BFS.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/readTxt.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/GraphSearch.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/BfsSearch.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Graph.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/dfsSearch.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/runGraph.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/dijkstra.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/puzzle8.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/puzzleSolver.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/puzzleNode.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/priorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/mPQ.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/myPQ.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/linkList.java" />
+        <option value="$PROJECT_DIR$/mygraph.txt" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/PQ.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Board.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/Solver.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/SearchNode.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/testDrive.java" />
+        <option value="$PROJECT_DIR$/src/GraphAlgorithms/Graphs/driver.java" />
+        <option value="$PROJECT_DIR$/src/Npuzzle/Solver/driver.java" />
+        <option value="$PROJECT_DIR$/src/Npuzzle/Solver/testDrive.java" />
+        <option value="$PROJECT_DIR$/src/Npuzzle/Solver/puzzleAlgorithms.java" />
+        <option value="$PROJECT_DIR$/solution.txt" />
+        <option value="$PROJECT_DIR$/src/Npuzzle/Solver/SolverVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/Npuzzle/Solver/Store_Values.java" />
+        <option value="$PROJECT_DIR$/src/Npuzzle/Solver/PQ.java" />
+        <option value="$PROJECT_DIR$/src/Npuzzle/Solver/StoreValues.java" />
+        <option value="$PROJECT_DIR$/src/Npuzzle/Solver/Solver.java" />
+        <option value="$PROJECT_DIR$/puzzle.txt" />
+        <option value="$PROJECT_DIR$/randomPuzzles.txt" />
+        <option value="$PROJECT_DIR$/src/Npuzzle/Solver/Board.java" />
+        <option value="$PROJECT_DIR$/src/Npuzzle/Solver/PuzzleAlgorithms.java" />
+        <option value="$PROJECT_DIR$/src/Npuzzle/Solver/Driver.java" />
+        <option value="$PROJECT_DIR$/moves.txtsolution.txt" />
+        <option value="$PROJECT_DIR$/src/Npuzzle/Solver/SearchNode.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="programming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="programming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Elias_spanos_983218_n-puzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="programming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Elias_spanos_983218_n-puzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Solver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FFTAlgorithmv1.6" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Driver">
+    <configuration default="false" name="driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="GraphAlgorithms.Graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="GraphAlgorithms.Graphs.driver" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="programming" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="GraphAlgorithms.Graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="GraphAlgorithms.Graphs.testDrive" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="programming" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testDrive (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Npuzzle.Solver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Npuzzle.Solver.testDrive" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="programming" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Solver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Npuzzle.Solver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Npuzzle.Solver.Solver" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="programming" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Npuzzle.Solver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Npuzzle.Solver.Driver" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="programming" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="solver" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="GraphAlgorithms.Graphs.Solver" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="programming" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.solver" />
+      <item index="1" class="java.lang.String" itemvalue="Application.driver" />
+      <item index="2" class="java.lang.String" itemvalue="Application.testDrive" />
+      <item index="3" class="java.lang.String" itemvalue="Application.testDrive (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Solver" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Driver" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Driver" />
+        <item index="1" class="java.lang.String" itemvalue="Application.testDrive (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Solver" />
+        <item index="3" class="java.lang.String" itemvalue="Application.driver" />
+        <item index="4" class="java.lang.String" itemvalue="Application.testDrive" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d438726-a0bd-4b5d-b825-7e23b9afd508" name="Default" comment="" />
+      <created>1419444388784</created>
+      <option name="number" value="Default" />
+      <updated>1419444388784</updated>
+      <workItem from="1421703463996" duration="349000" />
+      <workItem from="1421703921162" duration="912000" />
+      <workItem from="1421770738113" duration="441000" />
+      <workItem from="1421771340496" duration="63000" />
+      <workItem from="1421778361635" duration="18122000" />
+      <workItem from="1421936719426" duration="11930000" />
+      <workItem from="1422180679400" duration="237000" />
+      <workItem from="1422204641091" duration="5804000" />
+      <workItem from="1423902043993" duration="15000" />
+      <workItem from="1424358008127" duration="6103000" />
+      <workItem from="1424364520837" duration="3923000" />
+      <workItem from="1424378356709" duration="3731000" />
+      <workItem from="1424444605869" duration="815000" />
+      <workItem from="1424700682809" duration="64000" />
+      <workItem from="1424700779244" duration="3736000" />
+      <workItem from="1424729386596" duration="10000" />
+      <workItem from="1424729447527" duration="634000" />
+      <workItem from="1424730272465" duration="4683000" />
+      <workItem from="1425131615909" duration="33000" />
+      <workItem from="1425131786539" duration="16000" />
+      <workItem from="1425131854059" duration="782000" />
+      <workItem from="1425152798362" duration="262000" />
+      <workItem from="1425153571907" duration="2976000" />
+      <workItem from="1425159829379" duration="2500000" />
+      <workItem from="1425162478589" duration="4283000" />
+      <workItem from="1425238103325" duration="17229000" />
+      <workItem from="1425286529679" duration="4477000" />
+      <workItem from="1425314029710" duration="3990000" />
+      <workItem from="1425318495035" duration="1632000" />
+      <workItem from="1425320170705" duration="621000" />
+      <workItem from="1425321284473" duration="138000" />
+      <workItem from="1425728639101" duration="1404000" />
+      <workItem from="1427267350632" duration="343000" />
+      <workItem from="1427274434182" duration="4782000" />
+      <workItem from="1429868702559" duration="1191000" />
+      <workItem from="1429906165565" duration="1317000" />
+      <workItem from="1430079107966" duration="91000" />
+    </task>
+    <task id="LOCAL-00113" summary="GraphImplementation">
+      <created>1421840151710</created>
+      <option name="number" value="00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1421840151710</updated>
+    </task>
+    <task id="LOCAL-00114" summary="GraphImplementation">
+      <created>1421840919867</created>
+      <option name="number" value="00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1421840919867</updated>
+    </task>
+    <task id="LOCAL-00115" summary="GraphImplementation">
+      <created>1421841349610</created>
+      <option name="number" value="00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1421841349612</updated>
+    </task>
+    <task id="LOCAL-00116" summary="GraphImplementation">
+      <created>1421841643692</created>
+      <option name="number" value="00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1421841643692</updated>
+    </task>
+    <task id="LOCAL-00117" summary="GraphImplementation">
+      <created>1421842295462</created>
+      <option name="number" value="00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1421842295462</updated>
+    </task>
+    <task id="LOCAL-00118" summary="GraphImplementation">
+      <created>1421843572973</created>
+      <option name="number" value="00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1421843572973</updated>
+    </task>
+    <task id="LOCAL-00119" summary="GraphImplementation">
+      <created>1421843757654</created>
+      <option name="number" value="00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1421843757654</updated>
+    </task>
+    <task id="LOCAL-00120" summary="GraphImplementation">
+      <created>1421849081663</created>
+      <option name="number" value="00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1421849081663</updated>
+    </task>
+    <task id="LOCAL-00121" summary="GraphImplementation">
+      <created>1421850429143</created>
+      <option name="number" value="00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1421850429143</updated>
+    </task>
+    <task id="LOCAL-00122" summary="BfsImplementation">
+      <created>1421850548820</created>
+      <option name="number" value="00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1421850548820</updated>
+    </task>
+    <task id="LOCAL-00123" summary="BfsImplementation">
+      <created>1421850634232</created>
+      <option name="number" value="00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1421850634232</updated>
+    </task>
+    <task id="LOCAL-00124" summary="BfsImplementation">
+      <created>1421851328976</created>
+      <option name="number" value="00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1421851328976</updated>
+    </task>
+    <task id="LOCAL-00125" summary="BfsImplementation">
+      <created>1421874191825</created>
+      <option name="number" value="00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1421874191825</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Graph methods">
+      <created>1421874375355</created>
+      <option name="number" value="00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1421874375355</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Graph methods">
+      <created>1421936446206</created>
+      <option name="number" value="00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1421936446206</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Graph methods">
+      <created>1421936608791</created>
+      <option name="number" value="00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1421936608791</updated>
+    </task>
+    <task id="LOCAL-00129" summary="Graph methods">
+      <created>1421937316497</created>
+      <option name="number" value="00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1421937316501</updated>
+    </task>
+    <task id="LOCAL-00130" summary="Graph methods">
+      <created>1421940635017</created>
+      <option name="number" value="00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1421940635017</updated>
+    </task>
+    <task id="LOCAL-00131" summary="Graph methods">
+      <created>1421941369340</created>
+      <option name="number" value="00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1421941369341</updated>
+    </task>
+    <task id="LOCAL-00132" summary="Bfs Graph">
+      <created>1421941669886</created>
+      <option name="number" value="00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1421941669886</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Bfs Graph">
+      <created>1421944825443</created>
+      <option name="number" value="00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1421944825443</updated>
+    </task>
+    <task id="LOCAL-00134" summary="Bfs Graph">
+      <created>1421946628964</created>
+      <option name="number" value="00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1421946628964</updated>
+    </task>
+    <task id="LOCAL-00135" summary="Bfs Graph">
+      <created>1421947401468</created>
+      <option name="number" value="00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1421947401468</updated>
+    </task>
+    <task id="LOCAL-00136" summary="Bfs Graph">
+      <created>1421948026344</created>
+      <option name="number" value="00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1421948026344</updated>
+    </task>
+    <task id="LOCAL-00137" summary="Bfs Graph">
+      <created>1421948784349</created>
+      <option name="number" value="00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1421948784349</updated>
+    </task>
+    <task id="LOCAL-00138" summary="Bfs Graph">
+      <created>1421949159483</created>
+      <option name="number" value="00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1421949159483</updated>
+    </task>
+    <task id="LOCAL-00139" summary="Bfs Graph">
+      <created>1422045930090</created>
+      <option name="number" value="00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1422045930090</updated>
+    </task>
+    <task id="LOCAL-00140" summary="Bfs Graph">
+      <created>1422206077306</created>
+      <option name="number" value="00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1422206077309</updated>
+    </task>
+    <task id="LOCAL-00141" summary="Bfs Graph">
+      <created>1422206647535</created>
+      <option name="number" value="00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1422206647535</updated>
+    </task>
+    <task id="LOCAL-00142" summary="Bfs Graph">
+      <created>1422207259788</created>
+      <option name="number" value="00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1422207259788</updated>
+    </task>
+    <task id="LOCAL-00143" summary="Bfs Graph">
+      <created>1422208248979</created>
+      <option name="number" value="00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1422208248979</updated>
+    </task>
+    <task id="LOCAL-00144" summary="Bfs Graph">
+      <created>1422209226392</created>
+      <option name="number" value="00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1422209226393</updated>
+    </task>
+    <task id="LOCAL-00145" summary="run Graph&#10;">
+      <created>1422209239140</created>
+      <option name="number" value="00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1422209239140</updated>
+    </task>
+    <task id="LOCAL-00146" summary="dijkstra">
+      <created>1422888524365</created>
+      <option name="number" value="00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1422888524366</updated>
+    </task>
+    <task id="LOCAL-00147" summary="PriorityQueue">
+      <created>1423157418492</created>
+      <option name="number" value="00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1423157418492</updated>
+    </task>
+    <task id="LOCAL-00148" summary="8-Puzzle">
+      <created>1423333849466</created>
+      <option name="number" value="00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1423333849466</updated>
+    </task>
+    <task id="LOCAL-00149" summary="8-Puzzle">
+      <created>1423334567168</created>
+      <option name="number" value="00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1423334567168</updated>
+    </task>
+    <task id="LOCAL-00150" summary="8-Puzzle">
+      <created>1423335687833</created>
+      <option name="number" value="00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1423335687833</updated>
+    </task>
+    <task id="LOCAL-00151" summary="8-Puzzle">
+      <created>1423337525299</created>
+      <option name="number" value="00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1423337525299</updated>
+    </task>
+    <task id="LOCAL-00152" summary="8-Puzzle">
+      <created>1423419572074</created>
+      <option name="number" value="00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1423419572075</updated>
+    </task>
+    <task id="LOCAL-00153" summary="8-Puzzle">
+      <created>1423419981688</created>
+      <option name="number" value="00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1423419981688</updated>
+    </task>
+    <task id="LOCAL-00154" summary="8-Puzzle">
+      <created>1423420698254</created>
+      <option name="number" value="00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1423420698254</updated>
+    </task>
+    <task id="LOCAL-00155" summary="8-Puzzle">
+      <created>1423424788064</created>
+      <option name="number" value="00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1423424788064</updated>
+    </task>
+    <task id="LOCAL-00156" summary="8-Puzzle">
+      <created>1423425967741</created>
+      <option name="number" value="00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1423425967741</updated>
+    </task>
+    <task id="LOCAL-00157" summary="8-Puzzle">
+      <created>1423431835134</created>
+      <option name="number" value="00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1423431835134</updated>
+    </task>
+    <task id="LOCAL-00158" summary="8-Puzzle">
+      <created>1423432217494</created>
+      <option name="number" value="00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1423432217495</updated>
+    </task>
+    <task id="LOCAL-00159" summary="8-Puzzle">
+      <created>1423607237851</created>
+      <option name="number" value="00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1423607237852</updated>
+    </task>
+    <task id="LOCAL-00160" summary="8-Puzzle">
+      <created>1423607896765</created>
+      <option name="number" value="00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1423607896765</updated>
+    </task>
+    <task id="LOCAL-00161" summary="Graph">
+      <created>1423834631650</created>
+      <option name="number" value="00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1423834631650</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="109639000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35523385" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33943662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18675353" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18496802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16085792" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2271715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.52699226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739422" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35523385" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2271715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33943662" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2806236" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18675353" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16364606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739422" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16085792" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/n-puzzle_v3.0" />
+    </ignored-roots>
+    <MESSAGE value="config" />
+    <MESSAGE value="challengeSolved" />
+    <MESSAGE value="GraphAlgorithms" />
+    <MESSAGE value="Sorting" />
+    <MESSAGE value="InsertionSort" />
+    <MESSAGE value="Find Peak Algorithm" />
+    <MESSAGE value="GraphImplementation" />
+    <MESSAGE value="BfsImplementation" />
+    <MESSAGE value="Graph methods" />
+    <MESSAGE value="Bfs Graph" />
+    <MESSAGE value="run Graph&#10;" />
+    <MESSAGE value="dijkstra" />
+    <MESSAGE value="PriorityQueue" />
+    <MESSAGE value="8-Puzzle" />
+    <MESSAGE value="Graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/Comparator.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/PriorityQueue.java</url>
+          <line>349</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Npuzzle/Solver/PuzzleAlgorithms.java</url>
+          <line>186</line>
+          <properties />
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="216" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="elements" />
+        <watch expression="path" />
+        <watch expression="path" />
+        <watch expression="path" />
+        <watch expression="closeList" />
+        <watch expression="openList" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="616" max-vertical-offset="1071">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="method#Board#0;class#Board#0" expanded="false" />
+            <element signature="method#manhattan#0;class#Board#0" expanded="false" />
+            <element signature="method#Euclidean#0;class#Board#0" expanded="false" />
+            <element signature="method#linearConflict#0;class#Board#0" expanded="false" />
+            <element signature="method#hamming#0;class#Board#0" expanded="false" />
+            <element signature="method#isSolvable#0;class#Board#0" expanded="false" />
+            <element signature="method#isGoal#0;class#Board#0" expanded="false" />
+            <element signature="method#neighbors#0;class#Board#0" expanded="false" />
+            <element signature="method#swap#0;class#Board#0" expanded="false" />
+            <element signature="method#toString#0;class#Board#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3009">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#runAStarlgorithm#0;class#Driver#0" expanded="false" />
+            <element signature="method#runIdAStarAlgorithm#0;class#Driver#0" expanded="false" />
+            <element signature="method#main#0;class#Driver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1275">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readPuzzle#0;class#Solver#0" expanded="false" />
+            <element signature="docComment;method#generateRand8Puzzle#0;class#Solver#0" expanded="false" />
+            <element signature="method#generateRand8Puzzle#0;class#Solver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puzzle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="170">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/SearchNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1394">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <folding>
+            <element signature="e#67#132#0" expanded="false" />
+            <element signature="method#SearchNode#1;class#SearchNode#0" expanded="false" />
+            <element signature="method#equalBoard#0;class#SearchNode#0" expanded="false" />
+            <element signature="method#compareTo#0;class#SearchNode#0" expanded="false" />
+            <element signature="e#1735#1790#0" expanded="false" />
+            <element signature="method#equals#0;class#SearchNode#0" expanded="false" />
+            <element signature="method#toString#0;class#SearchNode#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/PQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="952">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="616" max-vertical-offset="1071">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="method#Board#0;class#Board#0" expanded="false" />
+            <element signature="method#manhattan#0;class#Board#0" expanded="false" />
+            <element signature="method#Euclidean#0;class#Board#0" expanded="false" />
+            <element signature="method#linearConflict#0;class#Board#0" expanded="false" />
+            <element signature="method#hamming#0;class#Board#0" expanded="false" />
+            <element signature="method#isSolvable#0;class#Board#0" expanded="false" />
+            <element signature="method#isGoal#0;class#Board#0" expanded="false" />
+            <element signature="method#neighbors#0;class#Board#0" expanded="false" />
+            <element signature="method#swap#0;class#Board#0" expanded="false" />
+            <element signature="method#toString#0;class#Board#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3009">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#runAStarlgorithm#0;class#Driver#0" expanded="false" />
+            <element signature="method#runIdAStarAlgorithm#0;class#Driver#0" expanded="false" />
+            <element signature="method#main#0;class#Driver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1275">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readPuzzle#0;class#Solver#0" expanded="false" />
+            <element signature="docComment;method#generateRand8Puzzle#0;class#Solver#0" expanded="false" />
+            <element signature="method#generateRand8Puzzle#0;class#Solver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puzzle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/SearchNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="1190">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#67#132#0" expanded="false" />
+            <element signature="method#SearchNode#1;class#SearchNode#0" expanded="false" />
+            <element signature="method#equalBoard#0;class#SearchNode#0" expanded="false" />
+            <element signature="method#compareTo#0;class#SearchNode#0" expanded="false" />
+            <element signature="e#1735#1790#0" expanded="false" />
+            <element signature="method#equals#0;class#SearchNode#0" expanded="false" />
+            <element signature="method#toString#0;class#SearchNode#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/PQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="986">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2177" max-vertical-offset="3077">
+          <caret line="169" column="9" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#runAStarlgorithm#0;class#Driver#0" expanded="false" />
+            <element signature="method#runIdAStarAlgorithm#0;class#Driver#0" expanded="false" />
+            <element signature="method#main#0;class#Driver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1275">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readPuzzle#0;class#Solver#0" expanded="false" />
+            <element signature="docComment;method#generateRand8Puzzle#0;class#Solver#0" expanded="false" />
+            <element signature="method#generateRand8Puzzle#0;class#Solver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puzzle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/SearchNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="1190">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#67#132#0" expanded="false" />
+            <element signature="method#SearchNode#1;class#SearchNode#0" expanded="false" />
+            <element signature="method#equalBoard#0;class#SearchNode#0" expanded="false" />
+            <element signature="method#compareTo#0;class#SearchNode#0" expanded="false" />
+            <element signature="e#1735#1790#0" expanded="false" />
+            <element signature="method#equals#0;class#SearchNode#0" expanded="false" />
+            <element signature="method#toString#0;class#SearchNode#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/PQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="986">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2177" max-vertical-offset="3077">
+          <caret line="169" column="9" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#runAStarlgorithm#0;class#Driver#0" expanded="false" />
+            <element signature="method#runIdAStarAlgorithm#0;class#Driver#0" expanded="false" />
+            <element signature="method#main#0;class#Driver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1275">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readPuzzle#0;class#Solver#0" expanded="false" />
+            <element signature="docComment;method#generateRand8Puzzle#0;class#Solver#0" expanded="false" />
+            <element signature="method#generateRand8Puzzle#0;class#Solver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puzzle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/SearchNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1581">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <element signature="e#67#132#0" expanded="false" />
+            <element signature="method#SearchNode#1;class#SearchNode#0" expanded="false" />
+            <element signature="method#equalBoard#0;class#SearchNode#0" expanded="false" />
+            <element signature="method#compareTo#0;class#SearchNode#0" expanded="false" />
+            <element signature="e#1735#1790#0" expanded="false" />
+            <element signature="method#equals#0;class#SearchNode#0" expanded="false" />
+            <element signature="method#toString#0;class#SearchNode#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2295">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#runAStarlgorithm#0;class#Driver#0" expanded="false" />
+            <element signature="method#runIdAStarAlgorithm#0;class#Driver#0" expanded="false" />
+            <element signature="method#main#0;class#Driver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puzzle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1275">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readPuzzle#0;class#Solver#0" expanded="false" />
+            <element signature="docComment;method#generateRand8Puzzle#0;class#Solver#0" expanded="false" />
+            <element signature="method#generateRand8Puzzle#0;class#Solver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/SearchNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1581">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <element signature="e#67#132#0" expanded="false" />
+            <element signature="method#SearchNode#1;class#SearchNode#0" expanded="false" />
+            <element signature="method#equalBoard#0;class#SearchNode#0" expanded="false" />
+            <element signature="method#compareTo#0;class#SearchNode#0" expanded="false" />
+            <element signature="e#1735#1790#0" expanded="false" />
+            <element signature="method#equals#0;class#SearchNode#0" expanded="false" />
+            <element signature="method#toString#0;class#SearchNode#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2482">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#runAStarlgorithm#0;class#Driver#0" expanded="false" />
+            <element signature="method#runIdAStarAlgorithm#0;class#Driver#0" expanded="false" />
+            <element signature="method#main#0;class#Driver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1275">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readPuzzle#0;class#Solver#0" expanded="false" />
+            <element signature="docComment;method#generateRand8Puzzle#0;class#Solver#0" expanded="false" />
+            <element signature="method#generateRand8Puzzle#0;class#Solver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puzzle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="170">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/SearchNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="2703">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#67#132#0" expanded="false" />
+            <element signature="method#SearchNode#1;class#SearchNode#0" expanded="false" />
+            <element signature="method#equalBoard#0;class#SearchNode#0" expanded="false" />
+            <element signature="method#compareTo#0;class#SearchNode#0" expanded="false" />
+            <element signature="e#1735#1790#0" expanded="false" />
+            <element signature="method#equals#0;class#SearchNode#0" expanded="false" />
+            <element signature="method#toString#0;class#SearchNode#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="1615">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#runAStarlgorithm#0;class#Driver#0" expanded="false" />
+            <element signature="method#runIdAStarAlgorithm#0;class#Driver#0" expanded="false" />
+            <element signature="method#main#0;class#Driver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puzzle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.6" vertical-offset="986" max-vertical-offset="20349">
+          <caret line="189" column="37" selection-start-line="189" selection-start-column="37" selection-end-line="189" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6" vertical-offset="4488" max-vertical-offset="8721">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5418" max-vertical-offset="14433">
+          <caret line="373" column="0" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
+          <folding>
+            <element signature="method#offer#0;class#PriorityQueue#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/jre/lib/rt.jar!/com/sun/awt/AWTUtilities.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1753554" vertical-offset="1020" max-vertical-offset="2431">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programming.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="482">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33187774" vertical-offset="5237" max-vertical-offset="12580">
+          <caret line="371" column="0" selection-start-line="371" selection-start-column="0" selection-end-line="371" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.707457" vertical-offset="259" max-vertical-offset="782">
+          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.332696" vertical-offset="9703" max-vertical-offset="25976">
+          <caret line="614" column="0" selection-start-line="614" selection-start-column="0" selection-end-line="614" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/PQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38449112" vertical-offset="102" max-vertical-offset="765">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/StoreValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linearAStarsolution.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="716">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linearIdesolution.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49562684" vertical-offset="0" max-vertical-offset="686">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moves.txtsolution.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="119">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puzzle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomPuzzles.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/SearchNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="969">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="e#67#132#0" expanded="false" />
+            <element signature="method#SearchNode#1;class#SearchNode#0" expanded="false" />
+            <element signature="method#equalBoard#0;class#SearchNode#0" expanded="false" />
+            <element signature="method#compareTo#0;class#SearchNode#0" expanded="false" />
+            <element signature="e#1735#1790#0" expanded="false" />
+            <element signature="method#equals#0;class#SearchNode#0" expanded="false" />
+            <element signature="method#toString#0;class#SearchNode#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/PuzzleAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1207">
+          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ideStar#0;class#PuzzleAlgorithms#0" expanded="false" />
+            <element signature="method#ideSearch#0;class#PuzzleAlgorithms#0" expanded="false" />
+            <element signature="method#AStarAlgorithm#0;class#PuzzleAlgorithms#0" expanded="false" />
+            <element signature="method#reconstructMoves#0;class#PuzzleAlgorithms#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1105">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="method#Board#0;class#Board#0" expanded="false" />
+            <element signature="method#manhattan#0;class#Board#0" expanded="false" />
+            <element signature="method#Euclidean#0;class#Board#0" expanded="false" />
+            <element signature="method#linearConflict#0;class#Board#0" expanded="false" />
+            <element signature="method#hamming#0;class#Board#0" expanded="false" />
+            <element signature="method#isSolvable#0;class#Board#0" expanded="false" />
+            <element signature="method#isGoal#0;class#Board#0" expanded="false" />
+            <element signature="method#neighbors#0;class#Board#0" expanded="false" />
+            <element signature="method#swap#0;class#Board#0" expanded="false" />
+            <element signature="method#toString#0;class#Board#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readPuzzle#0;class#Solver#0" expanded="false" />
+            <element signature="docComment;method#generateRand8Puzzle#0;class#Solver#0" expanded="false" />
+            <element signature="method#generateRand8Puzzle#0;class#Solver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Npuzzle/Solver/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5074627" vertical-offset="612" max-vertical-offset="1955">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="117" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#runAStarlgorithm#0;class#Driver#0" expanded="false" />
+            <element signature="method#runIdAStarAlgorithm#0;class#Driver#0" expanded="false" />
+            <element signature="method#main#0;class#Driver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>programming</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
